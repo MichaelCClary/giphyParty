@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right top, #0e67eb, #9d48d0, #d607a1, #ee0067, #eb122b);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+img {
+    height: 30rem;
+    width: 30rem;
+    margin: 10px;
+}
+
+.formDiv {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
