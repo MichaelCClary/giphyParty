@@ -15,7 +15,7 @@ clearBtn.addEventListener('click', function (e) {
 
 
 async function searchForGiphy(tag) {
-    const res = await axios.get(`http://api.giphy.com/v1/gifs/random?api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym&tag=${tag}`)
+    const res = await axios.get(`https://api.giphy.com/v1/gifs/random?api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym&tag=${tag}`)
     console.log(res.data.data)
     addImgToDOM(res.data.data.image_url);
 }
